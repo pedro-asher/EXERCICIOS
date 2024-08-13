@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 int main() {
-    int numeroDeVisitantes;
+    int NúmeroVisitantes;
 
     printf("Digite o número de visitantes que entraram hoje: ");
-    scanf("%d", &numeroDeVisitantes);
+    scanf("%d", &NúmeroVisitantes);
 
 
-    printf("O número de visitantes registrado para hoje é: %d\n", numeroDeVisitantes);
+    printf("O número de visitantes registrado para hoje é: %d\n", NúmeroVisitantes);
 
     return 0;
 }

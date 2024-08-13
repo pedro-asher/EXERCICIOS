@@ -1,0 +1,15 @@
+//Tarefa 002 Exercício 1
+
+#include <stdio.h>
+
+int main() {
+    int numeroDeVisitantes;
+
+    printf("Digite o número de visitantes que entraram hoje: ");
+    scanf("%d", &numeroDeVisitantes);
+
+
+    printf("O número de visitantes registrado para hoje é: %d\n", numeroDeVisitantes);
+
+    return 0;
+}

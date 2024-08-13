@@ -1,0 +1,19 @@
+// Tarefa 002 Exercício 2
+
+#include <stdio.h>
+
+int main() {
+    float Entrada, Gasto, saldo;
+
+    printf("Digite o valor da Entrada: ");
+    scanf("%f", &Entrada);
+
+    printf("Digite o valor da Gasto: ");
+    scanf("%f", &Gasto);
+
+    saldo = Entrada - Gasto;
+
+    printf("Saldo atualizado: %.2f\n", saldo);
+
+    return 0;
+}

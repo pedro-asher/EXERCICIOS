@@ -1,0 +1,108 @@
+Exercício 1
+alternativa correta: C
+c) int main() {
+ int num;
+ printf("Digite um número: ");
+ scanf("%d", &num);
+ if (num > 0){
+ printf("Número
+positivo\n");
+ }
+ return 0;
+}
+
+
+
+Exercício 2
+alternativa correta: B
+b) int main() {
+ int a, b;
+ float media;
+ printf("Digite dois números:
+");
+ scanf("%d %d", &a, &b);
+ media = (a + b) / 2.0;
+ printf("Média: %.2f\n",
+media);
+ return 0;
+}
+
+
+
+Exercício 3
+a) #include <stdio.h>
+
+int main() {
+    double fahrenheit = 259;
+    double celsius;
+    celsius = (fahrenheit - 32.0) * (5.0 / 9.0);
+    printf("Temperatura em Celsius: %.2f\n", celsius);
+    return 0;
+{
+
+b) #include <stdio.h>
+
+int main() {
+    int fahrenheit = 259;
+    double celsius;
+    celsius = (fahrenheit - 32) * (5.0 / 9.0);
+    printf("Temperatura em Celsius: %.2f\n", celsius);
+    return 0;
+}
+
+
+
+Exercício 4
+#include <stdio.h>
+
+int main() {
+    int temperatura;
+    printf("Digite a temperatura atual em graus Celsius: ");
+    scanf("%d", &temperatura);
+
+    if (temperatura <= 0) {
+        printf("Geleira - Temperatura muito fria!\n");
+    } else if (temperatura >= 1 && temperatura <= 15) {
+        printf("Frio - Pode precisar de um casaco!\n");
+    } else if (temperatura >= 16 && temperatura <= 25) {
+        printf("Agradável - Tempo bom para sair!\n");
+    } else if (temperatura >= 26 && temperatura <= 35) {
+        printf("Quente - Ótimo para um dia de praia!\n");
+    } else {
+        printf("Muito quente - Mantenha-se hidratado!\n");
+    }
+
+    return 0;
+}
+
+
+
+Exercício 5
+#include <stdio.h>
+
+int main() {
+    int temperatura;
+    printf("Digite a temperatura atual do depósito: ");
+    scanf("%d", &temperatura);
+
+    if (temperatura < -10) {
+        printf("Risco Baixo - Armazenamento ideal para alimentos congelados.\n");
+    } else if (temperatura >= -10 && temperatura <= 0) {
+        printf("Risco Moderado - Condições aceitáveis para armazenamento refrigerado.\n");
+    } else if ((temperatura >= 1 && temperatura <= 10) || temperatura == 15) {
+        printf("Risco Elevado - Monitore a temperatura.\n");
+    } else {
+        printf("Risco Crítico - Ação Imediata Necessária!\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
